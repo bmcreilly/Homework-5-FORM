@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bodyform">
+      <div class="topform">
+        <h1 id="first">Your contact info</h1>
+        <h2> Full Name</h2>
+          <form action="">
+		        <input type="text" id="name" placeholder="Full Name">
+        <h2>Email</h2>
+            <input type="email" id="email" placeholder="Email">
+        <h2>Phone</h2>
+            <input type="number" id="number" placeholder="(XXX) XXX - XXXX">
+          </form>
+        <br>
+        <hr align="left" width="320px">
+        <br>
+      </div>
+      <div class="middleform">
+        <h1 id="second">Skills and Interests</h1>
+        <h2>What course are you intersted in?</h2>
+          <div class="dropdown"
+            <form action="">
+              <label for="select"></label>
+                <select id="select" name="select">
+                  <option value="Select" selected disabled>Select</option>
+                  <option value="FEWD">Front End Web Development</option>
+                  <option value="BEWD">Back End Web Development</option>
+                  <option value="UX">User Experience</option>
+                  <option value="Java">JavaScript Development</option>
+                  <option value="Data">Data Science</option>
+                </select>
+          </div>
+          <h2>Where do you want to take this course?</h2>
+          <div class="checkbox">
+              <form action="">
+                San Francisco <input type="radio" name="location" value="San Francisco">
+                Chicago <input type="radio" name="Location" value="Chicago">
+              </form>
+          </div>
+            <h2> Past Experience</h2>
+              <form action="">
+                <textarea id="message" placeholder="Message"></textarea>
+              </form>
+          <hr align="left" width="320px">
+      </div>
+      <div class="bottomform">
+        <div class="emaillist">
+          <form action="">
+            I want to receice email updates. <input type="checkbox" name="email updated" value="Yes">
+          </form>
+        </div>
+          <form action="">
+            <button type="submit Application">Submit Application</button>
+         </form>
+      </div>
+   </div>
+</body>
+</html>

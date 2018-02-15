@@ -1,0 +1,168 @@
+body {
+  background-color: #98d2bf;
+  padding: 200px;
+}
+
+.bodyform {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  width: 350px;
+  height: 650px;
+}
+
+div.bodyform {
+    position: relative;
+    /*border: 3px solid #73AD21;*/
+    align-content: center;
+    margin-left: 260px;
+}
+
+.topform {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.middleform {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.bottomform {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  padding-top: 43px;
+}
+
+h1 {
+    font-family: 'oswald';
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+h2 {
+  font-family: 'opensans';
+  font-size: 12px;
+  font-weight: lighter;
+  padding-left: 5px;
+}
+
+#first {
+  font-family: 'opensans';
+  font-size: 18px;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  padding-left: 5px;
+  padding-top: -40px;
+  font-weight: bold;
+}
+
+#second {
+  font-family: 'opensans';
+  font-size: 18px;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
+#name {
+  font-family: 'opensans';
+  font-size: 10px;
+  color: #F0F0F0;
+  font-weight: lighter;
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+#email {
+  font-family: 'opensans';
+  font-size: 10px;
+  color: #F0F0F0;
+  font-weight: lighter;
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+#number {
+  font-family: 'opensans';
+  color: #F0F0F0;
+  font-weight: lighter;
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+.dropdown {
+  padding-left: 5px;
+}
+
+button {
+  font-family: 'opensans';
+  color: white;
+  background-color: #B69843;
+  font-weight: bold;
+  width: 150px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  color: #F0F0F0;
+}
+
+.checkbox {
+  font-family: 'opensans';
+  font-size: 12px;
+  font-weight: lighter;
+  padding-left: 5px;
+}
+
+#message {
+  font-family: 'opensans';
+  color: #F0F0F0;
+  font-weight: lighter;
+  width: 300px;
+  height: 50px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+  max-width: 300px;
+  max-height: 70px;
+}
+
+.emaillist {
+  font-family: 'opensans';
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-left: 5px;
+}
